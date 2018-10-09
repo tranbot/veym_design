@@ -1,14 +1,21 @@
 import React from 'react';
 import Hero from '../../components/Hero';
+import Carousel from '../../components/Carousel';
 
-const Home = () => (
-    <fragment>
-        <Hero backgroundImage="/images/temphero.png">
-            <div className="text-white">
-                <h1 className="hero-text opensans">Welcome to VEYM USA</h1>
+// const Home = () => (
+//     <fragment>
+//         <Hero backgroundImage="/images/temphero.png" />
+//     </fragment>
+// )
+
+class Home extends React.Component {
+    render() {
+        return (
+            <div className="container">
+                <Carousel />
             </div>
-        </Hero>
-    </fragment>
-)
+        )
+    }
+}
 
 export default Home;

@@ -21,32 +21,32 @@ class Navbar extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">
-          <img src="hover-logo.png" width="30" height="30" alt="" />
-        </a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul className="navbar-nav">
-              <NavItem path="/" name="Home" />
-              <NavItem path="/about-us" name="About Us" />
-              <NavItem path="/our-regions" name="Our Regions" />
-              <NavItem path="/news" name="News" />
-              <NavItem path="/resources" name="Resources" />
-              <NavItem path="/store" name="TNTT Store" />
-            </ul>
-
-            {/* <form className="form-inline my-2 my-lg-0">
-            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form> */}
+          <div className="navbar-brand-name">
+              <div className="tntt-name">
+                <img src="/images/hover.png" className="veym-logo" width="70" height="70" alt="veym-logo"/>
+                <div className="brand-name eng">VIETNAMESE EUCHARISTIC YOUTH MOVEMENT IN THE USA</div><div className="brand-name vn">THIẾU NHI THÁNH THỂ VIỆT NAM TẠI HOA KY</div>
+              </div>
           </div>
+        </a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul className="navbar-nav">
+            <NavItem path="/" name="Home" />
+            <NavItem path="/about-us" name="About Us" />
+            <NavItem path="/our-regions" name="Our Regions" />
+            <NavItem path="/news" name="News" />
+            <NavItem path="/resources" name="Resources" />
+            <NavItem path="/store" name="TNTT Store" />
+          </ul>
+        </div>
       </nav>
-        )
-      }
-    }
-    
-    export default Navbar;
-    
-    
+    )
+  }
+}
+
+export default Navbar;
+
+

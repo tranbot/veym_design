@@ -3,11 +3,44 @@ nav.navbar {
     margin-bottom: 0;
   }
 
-.logo {
-  background: url(/images/nohover-logo.png) no-repeat-center;
-  background-size: contain;
+.navbar-brand {
+  padding: 0 0 0 0 !important;
 }
 
-navbar-nav {
-  text-align: right;
+.navbar-brand-name > {
+  display: inline-block;
+  float: left;
+}
+
+.navbar-brand-name > .tntt-name > img {
+  display: inline-block;
+  float: left;
+  padding: 5px 5px 0 0;
+}
+
+.brand-name.eng {
+  padding: 10px 0 0 10px;
+  margin-left: 15px !important;
+}
+.brand-name.vn {
+  padding: 0 0 10px 10px;
+  margin-left: 15px !important;
+}
+
+.tntt-name {
+  color: rgb(175, 175, 175);
+  transition: transform .2s;
+}
+
+.tntt-name:hover {
+  color: black;
+  transform: scale(1.025);
+}
+
+.navbar-nav {
+  font-size: 25px;
+}
+
+a.nav-link {
+  padding: 0 20px 0 20px !important;
 }
