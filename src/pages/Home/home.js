@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from '../../components/Hero';
-import Photosel from '../../components/Carousel';
+import CarouselPage from '../../components/Carousel';
 
 // const Home = () => (
 //     <fragment>
@@ -11,9 +11,7 @@ import Photosel from '../../components/Carousel';
 class Home extends React.Component {
     render() {
         return (
-            <div className="container">
-                <Photosel />
-            </div>
+            <CarouselPage />
         )
     }
 }

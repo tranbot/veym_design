@@ -22,6 +22,7 @@ nav.navbar {
   padding: 10px 0 0 10px;
   margin-left: 15px !important;
 }
+
 .brand-name.vn {
   padding: 0 0 10px 10px;
   margin-left: 15px !important;
@@ -43,4 +44,10 @@ nav.navbar {
 
 a.nav-link {
   padding: 0 20px 0 20px !important;
+  background-color: #f8f9fa !important;
+  color: grey !important;
+}
+
+a.nav-link:hover {
+  color: black !important;
 }

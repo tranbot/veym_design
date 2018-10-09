@@ -12,9 +12,9 @@ body {
     background-color: #ddd;
 }
 .container {
-    padding-top: 5vh;
+    padding-top: .5vh;
 }
-/* .hero-text {
+.hero-text {
     margin-top: 50vh;
 }
 
@@ -22,4 +22,5 @@ body {
     .hero-text {
         margin-top: 20vh;
     }
-} */
+}
+
